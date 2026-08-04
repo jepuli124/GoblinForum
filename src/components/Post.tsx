@@ -12,13 +12,13 @@ const Post: React.FC<incomingParams> = ({name, text}) => {
     
     return (
     <div style={{display: 'flex', gap: "1rem"}}>
-        <div>
-         <img src={imagePath}></img>
-        </div>
-        <div style={{}}>
-        <h2 style={{justifySelf: "left", fontFamily: "grabstein"}}>{name}</h2>
-        <h3>{text}</h3>
-        </div>
+        <section style={{ margin: "5px", padding: "0px"}}>
+         <img src={imagePath} style={{width: "100%", height: "100%"}}></img>
+        </section>
+        <section style={{ margin: "5px", width: "100%"}}>
+        <h2 style={{justifySelf: "left", marginLeft: "20px", fontFamily: "grabstein"}}>{name}</h2>
+        <h3 style={{justifySelf: "left", marginLeft: "20px", fontFamily: "grabstein"}}>{text}</h3>
+        </section>
         
     </div>
     )

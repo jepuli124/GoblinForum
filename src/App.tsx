@@ -26,7 +26,7 @@ function App() {
       </section>
       <section>
         <h3>Enjoy</h3>
-        <p>Disappearces of older comments are totally normal</p>
+        <p>Disappearces of comments are totally normal</p>
       </section>
     </>
   )
