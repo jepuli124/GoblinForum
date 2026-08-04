@@ -1,0 +1,23 @@
+
+
+input {
+    font-family: 'grabstein';
+    font-size: larger;
+    field-sizing: content;
+    min-width: 7ch;
+    border: 5px ridge var(--main1);
+    position: relative;
+    padding: 5px 10px;
+    margin: 4px;
+    background: linear-gradient(120deg, var(--main1dark), var(--main2dark) );
+    border-radius: 5px;
+    transition: 1.2s, --DaisyBush 2s ease, --BoldNavy 2s ease;
+
+}
+
+
+
+input:hover{
+    border: 5px ridge var(--main1light);
+
+}

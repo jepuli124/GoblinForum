@@ -1,0 +1,97 @@
+/* Stardarding colors naming */
+
+/* RebeccaPutple*/ 
+@property --main1 { 
+    syntax: '<color>';
+    initial-value: #4f772d;
+    inherits: false;
+}
+
+@property --main1dark {
+    syntax: '<color>';
+    initial-value: #31572c;
+    inherits: false;
+}
+
+@property --main1light {
+    syntax: '<color>';
+    initial-value: #90a955;
+    inherits: false;
+}
+
+@property --main2 {
+    syntax: '<color>';
+    initial-value: #aacc00 ;
+    inherits: false;
+}
+
+/*Dark ametyst*/
+@property --main2dark {
+    syntax: '<color>';
+    initial-value: #4f772d;
+    inherits: false;
+}
+
+@property --main2light {
+    syntax: '<color>';
+    initial-value: #90a955;
+    inherits: false;
+}
+
+/*Indigo velvet*/
+@property --main3 {
+    syntax: '<color>';
+    initial-value: #4f772d;
+    inherits: false;
+}
+
+
+@property --main3dark {
+    syntax: '<color>';
+    initial-value: #31572c;
+    inherits: false;
+}
+
+@property --main3light {
+    syntax: '<color>';
+    initial-value: #90a955;
+    inherits: false;
+}
+
+@property --main4 {
+    syntax: '<color>';
+    initial-value: #4f772d;
+    inherits: false;
+}
+
+@property --main4dark {
+    syntax: '<color>';
+    initial-value: #456657;
+    inherits: false;
+}
+/* Aquamarine */
+@property --main4light {
+    syntax: '<color>';
+    initial-value: #90a955;
+    inherits: false;
+}
+
+/* PineBlue */
+
+@property --main5 {
+    syntax: '<color>';
+    initial-value: #4f772d;
+    inherits: false;
+}
+
+@property --main5dark {
+    syntax: '<color>';
+    initial-value: #007f5f;
+    inherits: false;
+}
+
+@property --main5light {
+    syntax: '<color>';
+    initial-value: #90a955;
+    inherits: false;
+}

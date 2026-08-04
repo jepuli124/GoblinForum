@@ -1,0 +1,130 @@
+@property --RebeccaPurple {
+    syntax: '<color>';
+    initial-value: #6A3190;
+    inherits: false;
+}
+
+@property --DarkAmethyst {
+    syntax: '<color>';
+    initial-value: #440A5F;
+    inherits: false;
+}
+
+
+@property --IndigoVelvet {
+    syntax: '<color>';
+    initial-value: #402785;
+    inherits: false;
+}
+
+
+@property --Aquamarine {
+    syntax: '<color>';
+    initial-value: #85FFC7;
+    inherits: false;
+}
+
+@property --PineBlue {
+    syntax: '<color>';
+    initial-value: #297373;
+    inherits: false;
+}
+
+
+/* Stardarding colors naming */
+
+/* RebeccaPutple*/ 
+@property --main1 { 
+    syntax: '<color>';
+    initial-value: #6A3190;
+    inherits: false;
+}
+
+@property --main1dark {
+    syntax: '<color>';
+    initial-value: #4B325C;
+    inherits: false;
+}
+
+@property --main1light {
+    syntax: '<color>';
+    initial-value: #DCA8FF;
+    inherits: false;
+}
+
+@property --main2 {
+    syntax: '<color>';
+    initial-value: #722D91 ;
+    inherits: false;
+}
+
+/*Dark ametyst*/
+@property --main2dark {
+    syntax: '<color>';
+    initial-value: #440A5F;
+    inherits: false;
+}
+
+@property --main2light {
+    syntax: '<color>';
+    initial-value: #A664C4;
+    inherits: false;
+}
+
+/*Indigo velvet*/
+@property --main3 {
+    syntax: '<color>';
+    initial-value: #402785;
+    inherits: false;
+}
+
+
+@property --main3dark {
+    syntax: '<color>';
+    initial-value: #332852;
+    inherits: false;
+}
+
+@property --main3light {
+    syntax: '<color>';
+    initial-value: #B5A2EB;
+    inherits: false;
+}
+
+@property --main4 {
+    syntax: '<color>';
+    initial-value: #93CCB1;
+    inherits: false;
+}
+
+@property --main4dark {
+    syntax: '<color>';
+    initial-value: #456657;
+    inherits: false;
+}
+/* Aquamarine */
+@property --main4light {
+    syntax: '<color>';
+    initial-value: #85FFC7;
+    inherits: false;
+}
+
+/* PineBlue */
+
+@property --main5 {
+    syntax: '<color>';
+    initial-value: #297373;
+    inherits: false;
+}
+
+@property --main5dark {
+    syntax: '<color>';
+    initial-value: #244040;
+    inherits: false;
+}
+
+@property --main5light {
+    syntax: '<color>';
+    initial-value: #A5D9D9;
+    inherits: false;
+}
