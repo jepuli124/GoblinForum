@@ -12,7 +12,7 @@ const Post: React.FC<incomingParams> = ({name, text}) => {
     
     return (
     <div style={{display: 'flex', gap: "1rem"}}>
-        <section style={{ margin: "5px", padding: "0px"}}>
+        <section style={{ margin: "5px", padding: "0px", height: "100px", width: "100px", alignSelf: "center"}}>
          <img src={imagePath} style={{width: "100%", height: "100%"}}></img>
         </section>
         <section style={{ margin: "5px", width: "100%"}}>
