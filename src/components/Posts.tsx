@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react'
 import Post from './Post'
 import eventBusHandler from '../hooks/EventBus'
+import musicPlayer from '../hooks/MusicHook'
 
 interface incomingParams{
     URL: string
@@ -12,6 +13,9 @@ const Posts: React.FC<incomingParams> = ({URL}) => {
     const [texts, setTexts] = useState<string[]>([])
 
     const handleTextUpdate = useCallback((newTexts: string[]) => {
+        if(texts !== newTexts || ( Math.random() >= 0.25)){
+            musicPlayer.playSFX("GoblinClashroyale.mp3", 0.5)
+        }
         setTexts(newTexts)
     }, [])
 
@@ -37,12 +41,17 @@ const Posts: React.FC<incomingParams> = ({URL}) => {
     }, [URL])
 
     useEffect(() => {
-        
         fetchData()
+        const fetchInterval = setInterval(() => {
+            fetchData()
+        }, 5000)
+
+        
         const unsub = eventBusHandler.subscribe("commentPublished", handleTextUpdate)
 
         return () => {
             unsub()
+            clearInterval(fetchInterval)
         }
     }, [])
     

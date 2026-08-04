@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
 import eventBusHandler from '../hooks/EventBus'
+import musicPlayer from '../hooks/MusicHook'
 
 interface incomingParams{
     URL: string
@@ -34,6 +35,7 @@ const AddComment: React.FC<incomingParams> = ({URL}) => {
         <form
             method="post"
             onSubmit={(e) => {
+                musicPlayer.playSFX("bugabugaClashRoyale.mp3", 0.5)
                 e.preventDefault()
                 doPost(e.target)
                 e.target.reset()
