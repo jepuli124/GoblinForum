@@ -13,7 +13,7 @@ const Posts: React.FC<incomingParams> = ({URL}) => {
     const [texts, setTexts] = useState<string[]>([])
 
     const handleTextUpdate = useCallback((newTexts: string[]) => {
-        if(texts !== newTexts || ( Math.random() >= 0.25)){
+        if((texts !== newTexts)){
             musicPlayer.playSFX("GoblinClashroyale.mp3", 0.5)
         }
         setTexts(newTexts)
